@@ -6,10 +6,10 @@ var result_container = document.querySelector(".result_container");
 var btn = document.querySelector(".btn");
 
 btn.addEventListener('click',()=>{
-    var taille_val = (taille.value);
+    var taille_val = taille.value;
     var poids_val = poids.value;
-    console.log("valeur de taille_val:",taille_val);
-    console.log("valeur de poids_val:",poids_val);
+    /*console.log("valeur de taille_val:",taille_val);
+    console.log("valeur de poids_val:",poids_val);*/
     if(taille_val =="" || poids_val == ""){
         alert("Veuillez remplir les champs svp!!!")
         return;
