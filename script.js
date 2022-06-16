@@ -24,11 +24,15 @@ btn.addEventListener('click',()=>{
         alert("Veuillez entrer un réel pour le poids svp!!!")
         return;
     }else{
+        //conertion de la taille (cm en m)
         var m = taille_val*(0.01);
-        //console.log("valeur en m:",m);
+        //calcul de l'IMC : IMC = poids en kg / taille² en m.
         var imc = poids_val /(m*m);
+        //arrondi a 2 chiffres apres la virgule
         imc = imc.toFixed(2);
+        //affichage du resultat(IMC Sur la vue)
         valeur_imc.innerHTML = imc;
+        //affichage du block du resultat
         result_container.style.display="block";
     }
 
