@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+      
+ 
+}
 .title{
     font-size: 25px;
     padding: 10px 0px 10px 15px;/*trbl*/
@@ -9,14 +14,18 @@
     font-weight: bold;
 }
 .container{
+
     border: 2px solid rgb(97, 118, 233);
+    /*border: 2px solid #cbcbd9;*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 700px;
-
+    border-radius:5px;
     padding: 25px 25px 0px 25px;/*trbl*/;
+    box-shadow: -1px 0px 8px 1px #cbcbd9;
+
 }
 .input_container{
     /*border: 1px solid green;*/
