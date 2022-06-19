@@ -84,10 +84,8 @@ select{
     font-size: 18px;
 }
 /********************************************************************/
-@media (max-width: 335px){
-    .container div{
+@media (max-width: 750px){
     
-    }
     .container{
        
         /*padding-left: 40px;
