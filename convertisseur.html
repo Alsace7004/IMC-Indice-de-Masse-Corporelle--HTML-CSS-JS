@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONVERTISSEUR-DE-DEVISE</title>
+    <link rel="stylesheet" href="convertisseur.css">
+    <script src="convertisseur.js" defer></script>
+</head>
+<body>
+    <div class="container">
+            <div>
+                    <div class="ec">
+                        <div class="ec_title">Convertisseur de Devise</div>
+                        <div class="ec_container">
+                            <div class="input_container">
+                                <label for="">Entrer le Montant</label>
+                                <input type="text" class="searchBox" placeholder="Entrer la valeur...">
+                            </div>
+                            <div class="select_container">
+                                <select name="" class="from" id="first_select">
+                                    <option value="">Choisir …</option>
+                                    <option value="USD">USD</option>
+                                    <option value="AED">EUR</option>
+                                    <option value="JPY">Yuen</option>
+                                    <option value="XOF">XOF</option>
+                                    <option value="NGN">NAIRA</option>
+                                    <option value="GHS">CEDIS</option>
+                                </select>
+                                <div class="bars">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                                <select name="" class="to" id="second_select">
+                                    <option value="">Choisir …</option>
+                                    <option value="USD">USD</option>
+                                    <option value="AED">EUR</option>
+                                    <option value="JPY">Yuen</option>
+                                    <option value="XOF">XOF</option>
+                                    <option value="NGN">NAIRA</option>
+                                    <option value="GHS">CEDIS</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div id="finalAmount" class="resulat">
+                            <!-- Display the converted amount -->
+                            <h5>Le Montant converti vaut :
+                                <span class="finalValue"style="color:green;"></span>
+                            </h5>
+                        </div>
+
+                        <div class="ec_footer">
+                                <button class="convert" id="btn">Convertir</button>
+                        </div>
+                    </div>
+                    <div class="link" style="display: flex;justify-content: center;margin-top: 1rem;">
+                        <a style="color: #fff;text-decoration: none;font-weight: 600;" href="index.html">Aller à L'Indice de Masse Corporelle</a>
+                    </div>
+            </div>
+
+    </div>
+
+
+
+</body>
+</html>
